@@ -1,6 +1,7 @@
 body {
     text-align: center;
     font-family: Comic Sans MS;
+    position: static;
 }
 h1 {
     font-weight: bold;
@@ -9,7 +10,7 @@ h1 {
 .uwaga {
     color: red;
     font-weight: bold;
-
+    font-size: 45px;
 }
 
 .ciebie {
@@ -27,4 +28,21 @@ a {
 
 a.clean:hover {
   color: red;
+}
+.cm{
+    transition-duration: 500ms;
+    font-size: 40px;
+    color: red;
+}
+.cm:hover{
+    transition-duration: 500ms;
+    font-size: 60px;
+    top: 350px;
+    position: inherit;
+}
+span{
+    font-size: 70px;
+}
+.link{
+    color: black;
 }
