@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+h1 {
+    font-weight: bold;
+}
+
+.uwaga {
+    color: red;
+    font-weight: bold;
+
+}
+
+.ciebie {
+    color: rgb(126, 207, 5);
+}
+
+.piek {
+    color: red;
+    font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.clean:hover {
+  color: red;
+}
