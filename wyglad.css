@@ -33,6 +33,7 @@ a.clean:hover {
     transition-duration: 500ms;
     font-size: 40px;
     color: red;
+    text-decoration: none;
 }
 .cm:hover{
     transition-duration: 500ms;
