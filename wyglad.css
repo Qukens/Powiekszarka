@@ -32,7 +32,7 @@ a.clean:hover {
 .cm{
     transition-duration: 500ms;
     font-size: 40px;
-    color: red;
+    color: rgb(0, 204, 255);
     text-decoration: none;
 }
 .cm:hover{
@@ -40,7 +40,7 @@ a.clean:hover {
     font-size: 60px;
     top: 350px;
     position: inherit;
-    color: blanchedalmond;
+    color: rgb(0, 79, 110);
 }
 span{
     font-size: 70px;
