@@ -48,9 +48,23 @@ span{
 .link{
     color: rgb(0, 255, 34);
 }
-.odp:hover{
-    top: 100%;
-    position: absolute;
-    transition-duration: 200ms;
-    border: 20px;
+.odp:hover .ukryty {
+    display: block;
+    transition-delay: 500ms;
+}
+.ukryty{
+    display: none;
+}
+.odp:hover > p {
+    display: none;
+}
+.odp > p, span {
+    font-size: 60px;
+    margin:auto;
+}
+.odp > p {
+    cursor: pointer;
+}
+.odp > span{
+    cursor:progress;
 }
